@@ -160,7 +160,7 @@ body{
     right: 0;
     height: 100%;
     width: 100%;
-    background: #00abf0;
+    background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1.9s;
     z-index: 2;
@@ -174,7 +174,7 @@ body{
     width: 130px;
     height: 100%;
     background: #00abf0;
-    border: 2px solid #00abf0;
+    border: 2px solid #081b29;
     border-radius: 8px;
     font-size: 19px;
     color: #081b29;
