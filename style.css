@@ -510,6 +510,66 @@ body{
 
 
 
+/* Research Section Styling */
+.research-section {
+    padding: 40px 10%;
+    background-color:#0a2e41 ; /* Lighter background to blend with site design */
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 5px auto;
+    font-family: 'Roboto', sans-serif; /* Assuming Roboto is being used */
+}
+
+/* Heading for the Experience section */
+.research-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #0066cc; /* Primary blue color for consistency */
+}
+
+/* Styling for each experience item */
+.research-item {
+    background-color: #081b29; /* White background for items */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Job Title Styling */
+.research-item h3 {
+    font-size: 24px;
+    color: #00abf0; /* Dark grey for job title */
+    margin-bottom: 10px;
+}
+
+/* Description Styling */
+.research-description {
+    font-size: 16px;
+    color: white; /* Darker grey for the description */
+    line-height: 1.6;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 600px) {
+    .research-section {
+        padding: 20px;
+    }
+
+    .research-section h2 {
+        font-size: 24px;
+    }
+
+    .research-item h3 {
+        font-size: 20px;
+    }
+
+
+    .research-description {
+        font-size: 14px;
+    }
+}
 
 /* Project Section Styling */
 .project-section {
