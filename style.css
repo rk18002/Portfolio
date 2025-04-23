@@ -508,40 +508,33 @@ body{
 
 
 
-/* research Section Styling */
+/* Research Section Styling */
 .research-section {
     padding: 40px 10%;
-    background-color: #0a2e41; /* White background to match website design */
+    background-color:#0a2e41 ; /* Lighter background to blend with site design */
     border-radius: 10px;
     max-width: 100%;
     margin: 5px auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for a modern look */
-    font-family: 'Roboto', sans-serif; /* Assuming Roboto font */
+    font-family: 'Roboto', sans-serif; /* Assuming Roboto is being used */
 }
 
-/* Heading for Project section */
+/* Heading for the Experience section */
 .research-section h2 {
     text-align: center;
     font-size: 28px;
     margin-bottom: 30px;
-    color: #00abf0; /* Dark color for heading */
-    font-weight: bold;
+    color: #0066cc; /* Primary blue color for consistency */
 }
 
-/* Project Item Styling */
+/* Styling for each experience item */
 .research-item {
-    display: flex;
-    flex-direction: row;
-    background-color:#081b29;
+    background-color: #081b29; /* White background for items */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    border-left: 5px solid #0066cc; /* Blue left border to match the theme */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
-    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
-
-/* Project Image Styling */
+/* Research Image Styling */
 .research-image {
     width: 120px;
     height: 120px;
@@ -550,39 +543,18 @@ body{
     margin-right: 20px;
 }
 
-/* Project Details Styling */
-.research-details {
-    flex: 1;
-}
-
-.research-details h3 {
-    font-size: 22px;
-    color: #00abf0; /* Dark grey for project title */
-    margin-bottom: 10px;
-    font-weight: 500;
-}
-
-.research-details p {
-    font-size: 16px;
-    color: white; /* Darker grey for description */
-    line-height: 1.5;
+/* Job Title Styling */
+.research-item h3 {
+    font-size: 24px;
+    color: #00abf0; /* Dark grey for job title */
     margin-bottom: 10px;
 }
 
-/* View Details Button Styling */
-.view-details-button {
-    display: inline-block;
+/* Description Styling */
+.research-description {
     font-size: 16px;
-    padding: 10px 20px;
-    background-color: #0066cc; /* Blue button */
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.view-details-button:hover {
-    background-color: #004b99; /* Darker blue on hover */
+    color: white; /* Darker grey for the description */
+    line-height: 1.6;
 }
 
 /* Responsive Design for Small Screens */
@@ -595,31 +567,15 @@ body{
         font-size: 24px;
     }
 
-    .research-item {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .research-image {
-        width: 100px;
-        height: 100px;
-        margin-bottom: 15px;
-    }
-
-    .research-details h3 {
+    .research-item h3 {
         font-size: 20px;
     }
 
-    .research-details p {
-        font-size: 14px;
-    }
 
-    .view-details-button {
+    .research-description {
         font-size: 14px;
-        padding: 8px 16px;
     }
 }
-
 
 /* Project Section Styling */
 .project-section {
