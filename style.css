@@ -508,32 +508,31 @@ body{
 
 
 
-
-
-/* Research Section Styling */
+/* research Section Styling */
 .research-section {
     padding: 40px 10%;
-    background-color:#0a2e41 ; /* Lighter background to blend with site design */
+    background-color: #0a2e41; /* White background to match website design */
     border-radius: 10px;
     max-width: 100%;
     margin: 5px auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    font-family: 'Roboto', sans-serif; /* Assuming Roboto is being used */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for a modern look */
+    font-family: 'Roboto', sans-serif; /* Assuming Roboto font */
 }
 
-/* Heading for the Experience section */
+/* Heading for Project section */
 .research-section h2 {
     text-align: center;
     font-size: 28px;
     margin-bottom: 30px;
-    color: #0066cc; /* Primary blue color for consistency */
+    color: #00abf0; /* Dark color for heading */
+    font-weight: bold;
 }
 
-/* Styling for each experience item */
+/* Project Item Styling */
 .research-item {
     display: flex;
     flex-direction: row;
-    background-color: #081b29; /* White background for items */
+    background-color:#081b29;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -542,7 +541,7 @@ body{
     align-items: center;
 }
 
-/* Research Image Styling */
+/* Project Image Styling */
 .research-image {
     width: 120px;
     height: 120px;
@@ -551,18 +550,39 @@ body{
     margin-right: 20px;
 }
 
-/* Job Title Styling */
-.research-item h3 {
-    font-size: 24px;
-    color: #00abf0; /* Dark grey for job title */
+/* Project Details Styling */
+.research-details {
+    flex: 1;
+}
+
+.research-details h3 {
+    font-size: 22px;
+    color: #00abf0; /* Dark grey for project title */
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.research-details p {
+    font-size: 16px;
+    color: white; /* Darker grey for description */
+    line-height: 1.5;
     margin-bottom: 10px;
 }
 
-/* Description Styling */
-.research-description {
+/* View Details Button Styling */
+.view-details-button {
+    display: inline-block;
     font-size: 16px;
-    color: white; /* Darker grey for the description */
-    line-height: 1.6;
+    padding: 10px 20px;
+    background-color: #0066cc; /* Blue button */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.view-details-button:hover {
+    background-color: #004b99; /* Darker blue on hover */
 }
 
 /* Responsive Design for Small Screens */
@@ -575,15 +595,31 @@ body{
         font-size: 24px;
     }
 
-    .research-item h3 {
+    .research-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .research-image {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    .research-details h3 {
         font-size: 20px;
     }
 
-
-    .research-description {
+    .research-details p {
         font-size: 14px;
     }
+
+    .view-details-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 }
+
 
 /* Project Section Styling */
 .project-section {
