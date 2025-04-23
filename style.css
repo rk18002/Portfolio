@@ -536,6 +536,14 @@ body{
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
+/* Research Image Styling */
+.research-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
 
 /* Job Title Styling */
 .research-item h3 {
