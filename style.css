@@ -517,6 +517,7 @@ body{
     border-radius: 10px;
     max-width: 100%;
     margin: 5px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     font-family: 'Roboto', sans-serif; /* Assuming Roboto is being used */
 }
 
@@ -530,12 +531,17 @@ body{
 
 /* Styling for each experience item */
 .research-item {
+    display: flex;
+    flex-direction: row;
     background-color: #081b29; /* White background for items */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-left: 5px solid #0066cc; /* Blue left border to match the theme */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    align-items: center;
 }
+
 /* Research Image Styling */
 .research-image {
     width: 120px;
